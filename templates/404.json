@@ -50,7 +50,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Elle.png",
-            "logo_width": 130,
+            "logo_width": 150,
             "link": ""
           }
         },
@@ -58,7 +58,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Comopolitan.png",
-            "logo_width": 120,
+            "logo_width": 150,
             "link": ""
           }
         },
@@ -66,7 +66,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Vogue.png",
-            "logo_width": 250,
+            "logo_width": 170,
             "link": ""
           }
         },
@@ -74,7 +74,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Marie_Claire.png",
-            "logo_width": 120,
+            "logo_width": 150,
             "link": ""
           }
         }
