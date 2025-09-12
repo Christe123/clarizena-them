@@ -289,15 +289,43 @@
           "type": "vendor",
           "settings": {}
         },
+        "liquid_Tkxr8P": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Trustpilot Stars</title> </head> <body> <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\"> <span style=\"font-size: 25px; font-weight: bold; color: #000;\">4.8</span> <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 120px; height: auto;\"> <span style=\"font-size: 23px; color: #555;\">(+1067avis)</span> </a> </body> </html>"
+          }
+        },
         "title_tQQciG": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
+        "image_GbR8wL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BENEFICEUTRA.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_MgTEWM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Offre_masque_2.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "badges_yURNCp": {
           "type": "badges",
           "settings": {}
+        },
+        "liquid_L4KTLw": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Bannière Stock et Garantie</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;\n            padding: 20px;\n        }\n\n        .banner-container {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 10px;\n            max-width: 100%;\n            margin: 0 auto;\n            padding: 8px 15px;\n            background: white;\n            border-radius: 6px;\n            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n        }\n\n        .guarantee-badge {\n            display: flex;\n            align-items: center;\n            gap: 5px;\n            padding: 5px 10px;\n            background-color: #f0fdf4;\n            border: 1px solid #bbf7d0;\n            border-radius: 5px;\n            font-size: 12px;\n            font-weight: 500;\n            color: #15803d;\n        }\n\n        .stock-badge {\n            display: flex;\n            align-items: center;\n            gap: 5px;\n            padding: 5px 10px;\n            background-color: #fff5f5;\n            border: 1px solid #fecaca;\n            border-radius: 5px;\n            font-size: 12px;\n            font-weight: 500;\n            color: #dc2626;\n        }\n\n        .checkmark {\n            width: 12px;\n            height: 12px;\n            background-color: #15803d;\n            border-radius: 50%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            color: white;\n            font-size: 8px;\n        }\n\n        .stock-dot {\n            width: 6px;\n            height: 6px;\n            background-color: #dc2626;\n            border-radius: 50%;\n            animation: blink 1.5s infinite;\n        }\n\n        @keyframes blink {\n            0%, 50% { opacity: 1; }\n            51%, 100% { opacity: 0.3; }\n        }\n\n        /* Responsive - TÉLÉPHONE */\n        @media (max-width: 768px) {\n            body {\n                padding: 10px;\n            }\n            \n            .banner-container {\n                gap: 6px;\n                padding: 6px 8px;\n            }\n            \n            .guarantee-badge,\n            .stock-badge {\n                font-size: 10px;\n                padding: 4px 6px;\n                gap: 3px;\n                font-weight: 600;\n            }\n            \n            .checkmark {\n                width: 10px;\n                height: 10px;\n                font-size: 6px;\n            }\n            \n            .stock-dot {\n                width: 5px;\n                height: 5px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .guarantee-badge,\n            .stock-badge {\n                font-size: 9px;\n                padding: 3px 5px;\n                gap: 2px;\n                font-weight: 600;\n            }\n            \n            .guarantee-badge span {\n                display: none;\n            }\n            \n            .guarantee-badge::after {\n                content: \"30J SATISFAIT/REMBOURSÉ\";\n                font-size: 9px;\n            }\n            \n            .stock-badge span {\n                display: none;\n            }\n            \n            .stock-badge::after {\n                content: \"Stock restant : 8 Kits\";\n                font-size: 9px;\n            }\n            \n            .checkmark {\n                width: 8px;\n                height: 8px;\n                font-size: 5px;\n            }\n            \n            .stock-dot {\n                width: 4px;\n                height: 4px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"banner-container\">\n        <div class=\"guarantee-badge\">\n            <div class=\"checkmark\">✓</div>\n            <span>30 JOURS SATISFAIT OU REMBOURSÉ</span>\n        </div>\n        \n        <div class=\"stock-badge\">\n            <div class=\"stock-dot\"></div>\n            <span>Stock restant : 5 Kits</span>\n        </div>\n    </div>\n</body>\n</html>"
+          }
         },
         "price_FjdTM4": {
           "type": "price",
@@ -353,8 +381,12 @@
       },
       "block_order": [
         "vendor_V4Pt83",
+        "liquid_Tkxr8P",
         "title_tQQciG",
+        "image_GbR8wL",
+        "image_MgTEWM",
         "badges_yURNCp",
+        "liquid_L4KTLw",
         "price_FjdTM4",
         "rating_G4zRKP",
         "separator_hFtQ9U",
