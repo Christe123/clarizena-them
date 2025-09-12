@@ -374,6 +374,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_kXcNWr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TTTT.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "pickup_availability_AL6by3": {
           "type": "pickup_availability",
           "settings": {}
@@ -394,6 +402,7 @@
         "variant_picker_Ppm7x3",
         "quantity_selector_8hTn9J",
         "buy_buttons_qCbKVf",
+        "image_kXcNWr",
         "pickup_availability_AL6by3"
       ],
       "name": "Featured product",
