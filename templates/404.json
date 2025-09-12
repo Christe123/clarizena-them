@@ -17,30 +17,16 @@
     "image_with_text_overlay_EgGM7N": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_9gEGT9": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_6nJmzA": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_UQHT7k": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "Rides profonde et double menton ?Liftez-les en une utilisation",
+            "heading_tag": "h3"
           }
         }
       },
       "block_order": [
-        "subheading_9gEGT9",
-        "heading_6nJmzA",
-        "richtext_UQHT7k"
+        "heading_6nJmzA"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -48,16 +34,78 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/BAN_PC.png",
+        "mobile_image": "shopify://shop_images/BANIERE_ONE.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "logo_list_mdDGVj": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kKP47J": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle.png",
+            "logo_width": 130,
+            "link": ""
+          }
+        },
+        "logo_Y9yKrw": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_FRjhBk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vogue.png",
+            "logo_width": 250,
+            "link": ""
+          }
+        },
+        "logo_CHnWb8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kKP47J",
+        "logo_Y9yKrw",
+        "logo_FRjhBk",
+        "logo_CHnWb8"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_EgGM7N"
+    "image_with_text_overlay_EgGM7N",
+    "logo_list_mdDGVj"
   ]
 }
