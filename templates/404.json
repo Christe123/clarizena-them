@@ -101,11 +101,56 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "rich_text_QeGz8t": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fHxpCH": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir ce masque ?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fHxpCH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_zeARxL": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/beneficemasque.png",
+        "mobile_image": "shopify://shop_images/beneficemasque.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_EgGM7N",
-    "logo_list_mdDGVj"
+    "logo_list_mdDGVj",
+    "rich_text_QeGz8t",
+    "image_with_text_overlay_zeARxL"
   ]
 }
